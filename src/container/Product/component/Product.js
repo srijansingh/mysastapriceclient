@@ -77,7 +77,7 @@ export default class Product extends Component {
                      <span className="single-product-price">
                         <span style={{fontWeight:'bold', fontSize:'1.5rem',padding:'0.5rem 0',marginRight:'3rem'}}>From</span>
                         <div className="single-amazon-logo">
-                            <img src={AmazonLogo} alt="amazon"/>
+                           <a href={this.props.link} target="blank"> <img src={AmazonLogo} alt="amazon"/></a>
                         </div>
                     </span>  
                 </div>
